@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E60FAAD5170EA8CD008C4A71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60FAAD4170EA8CD008C4A71 /* UIKit.framework */; };
+		E60FAAD7170EA8CD008C4A71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60FAAD6170EA8CD008C4A71 /* Foundation.framework */; };
+		E60FAAD9170EA8CD008C4A71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60FAAD8170EA8CD008C4A71 /* CoreGraphics.framework */; };
+		E60FAADF170EA8CD008C4A71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E60FAADD170EA8CD008C4A71 /* InfoPlist.strings */; };
+		E60FAAE1170EA8CD008C4A71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E60FAAE0170EA8CD008C4A71 /* main.m */; };
+		E60FAAE5170EA8CD008C4A71 /* CLPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E60FAAE4170EA8CD008C4A71 /* CLPAppDelegate.m */; };
+		E60FAAE7170EA8CD008C4A71 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E60FAAE6170EA8CD008C4A71 /* Default.png */; };
+		E60FAAE9170EA8CD008C4A71 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E60FAAE8170EA8CD008C4A71 /* Default@2x.png */; };
+		E60FAAEB170EA8CD008C4A71 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E60FAAEA170EA8CD008C4A71 /* Default-568h@2x.png */; };
+		E60FAAEE170EA8CD008C4A71 /* CLPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60FAAED170EA8CD008C4A71 /* CLPViewController.m */; };
+		E60FAAF1170EA8CD008C4A71 /* CLPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60FAAEF170EA8CD008C4A71 /* CLPViewController.xib */; };
+		E60FAAFA170EA918008C4A71 /* CLPMessageBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = E60FAAF9170EA918008C4A71 /* CLPMessageBanner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E60FAAD1170EA8CD008C4A71 /* ClippMessageBannerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClippMessageBannerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60FAAD4170EA8CD008C4A71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E60FAAD6170EA8CD008C4A71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E60FAAD8170EA8CD008C4A71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E60FAADC170EA8CD008C4A71 /* ClippMessageBannerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClippMessageBannerExample-Info.plist"; sourceTree = "<group>"; };
+		E60FAADE170EA8CD008C4A71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E60FAAE0170EA8CD008C4A71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E60FAAE2170EA8CD008C4A71 /* ClippMessageBannerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClippMessageBannerExample-Prefix.pch"; sourceTree = "<group>"; };
+		E60FAAE3170EA8CD008C4A71 /* CLPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPAppDelegate.h; sourceTree = "<group>"; };
+		E60FAAE4170EA8CD008C4A71 /* CLPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPAppDelegate.m; sourceTree = "<group>"; };
+		E60FAAE6170EA8CD008C4A71 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E60FAAE8170EA8CD008C4A71 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E60FAAEA170EA8CD008C4A71 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E60FAAEC170EA8CD008C4A71 /* CLPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPViewController.h; sourceTree = "<group>"; };
+		E60FAAED170EA8CD008C4A71 /* CLPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPViewController.m; sourceTree = "<group>"; };
+		E60FAAF0170EA8CD008C4A71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CLPViewController.xib; sourceTree = "<group>"; };
+		E60FAAF8170EA918008C4A71 /* CLPMessageBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLPMessageBanner.h; path = CLPMessageBanner/CLPMessageBanner.h; sourceTree = "<group>"; };
+		E60FAAF9170EA918008C4A71 /* CLPMessageBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLPMessageBanner.m; path = CLPMessageBanner/CLPMessageBanner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E60FAACE170EA8CD008C4A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60FAAD5170EA8CD008C4A71 /* UIKit.framework in Frameworks */,
+				E60FAAD7170EA8CD008C4A71 /* Foundation.framework in Frameworks */,
+				E60FAAD9170EA8CD008C4A71 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E60FAAC8170EA8CD008C4A71 = {
+			isa = PBXGroup;
+			children = (
+				E60FAADA170EA8CD008C4A71 /* ClippMessageBannerExample */,
+				E60FAAD3170EA8CD008C4A71 /* Frameworks */,
+				E60FAAD2170EA8CD008C4A71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E60FAAD2170EA8CD008C4A71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E60FAAD1170EA8CD008C4A71 /* ClippMessageBannerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E60FAAD3170EA8CD008C4A71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E60FAAD4170EA8CD008C4A71 /* UIKit.framework */,
+				E60FAAD6170EA8CD008C4A71 /* Foundation.framework */,
+				E60FAAD8170EA8CD008C4A71 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E60FAADA170EA8CD008C4A71 /* ClippMessageBannerExample */ = {
+			isa = PBXGroup;
+			children = (
+				E60FAAF7170EA8D4008C4A71 /* CLPMessageBanner */,
+				E60FAAE3170EA8CD008C4A71 /* CLPAppDelegate.h */,
+				E60FAAE4170EA8CD008C4A71 /* CLPAppDelegate.m */,
+				E60FAAEC170EA8CD008C4A71 /* CLPViewController.h */,
+				E60FAAED170EA8CD008C4A71 /* CLPViewController.m */,
+				E60FAAEF170EA8CD008C4A71 /* CLPViewController.xib */,
+				E60FAADB170EA8CD008C4A71 /* Supporting Files */,
+			);
+			path = ClippMessageBannerExample;
+			sourceTree = "<group>";
+		};
+		E60FAADB170EA8CD008C4A71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E60FAADC170EA8CD008C4A71 /* ClippMessageBannerExample-Info.plist */,
+				E60FAADD170EA8CD008C4A71 /* InfoPlist.strings */,
+				E60FAAE0170EA8CD008C4A71 /* main.m */,
+				E60FAAE2170EA8CD008C4A71 /* ClippMessageBannerExample-Prefix.pch */,
+				E60FAAE6170EA8CD008C4A71 /* Default.png */,
+				E60FAAE8170EA8CD008C4A71 /* Default@2x.png */,
+				E60FAAEA170EA8CD008C4A71 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E60FAAF7170EA8D4008C4A71 /* CLPMessageBanner */ = {
+			isa = PBXGroup;
+			children = (
+				E60FAAF8170EA918008C4A71 /* CLPMessageBanner.h */,
+				E60FAAF9170EA918008C4A71 /* CLPMessageBanner.m */,
+			);
+			name = CLPMessageBanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E60FAAD0170EA8CD008C4A71 /* ClippMessageBannerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E60FAAF4170EA8CD008C4A71 /* Build configuration list for PBXNativeTarget "ClippMessageBannerExample" */;
+			buildPhases = (
+				E60FAACD170EA8CD008C4A71 /* Sources */,
+				E60FAACE170EA8CD008C4A71 /* Frameworks */,
+				E60FAACF170EA8CD008C4A71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClippMessageBannerExample;
+			productName = ClippMessageBannerExample;
+			productReference = E60FAAD1170EA8CD008C4A71 /* ClippMessageBannerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E60FAAC9170EA8CD008C4A71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CLP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Craig Stanford";
+			};
+			buildConfigurationList = E60FAACC170EA8CD008C4A71 /* Build configuration list for PBXProject "ClippMessageBannerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E60FAAC8170EA8CD008C4A71;
+			productRefGroup = E60FAAD2170EA8CD008C4A71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E60FAAD0170EA8CD008C4A71 /* ClippMessageBannerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E60FAACF170EA8CD008C4A71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60FAADF170EA8CD008C4A71 /* InfoPlist.strings in Resources */,
+				E60FAAE7170EA8CD008C4A71 /* Default.png in Resources */,
+				E60FAAE9170EA8CD008C4A71 /* Default@2x.png in Resources */,
+				E60FAAEB170EA8CD008C4A71 /* Default-568h@2x.png in Resources */,
+				E60FAAF1170EA8CD008C4A71 /* CLPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E60FAACD170EA8CD008C4A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60FAAE1170EA8CD008C4A71 /* main.m in Sources */,
+				E60FAAE5170EA8CD008C4A71 /* CLPAppDelegate.m in Sources */,
+				E60FAAEE170EA8CD008C4A71 /* CLPViewController.m in Sources */,
+				E60FAAFA170EA918008C4A71 /* CLPMessageBanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E60FAADD170EA8CD008C4A71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E60FAADE170EA8CD008C4A71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E60FAAEF170EA8CD008C4A71 /* CLPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E60FAAF0170EA8CD008C4A71 /* en */,
+			);
+			name = CLPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E60FAAF2170EA8CD008C4A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E60FAAF3170EA8CD008C4A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E60FAAF5170EA8CD008C4A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClippMessageBannerExample/ClippMessageBannerExample-Prefix.pch";
+				INFOPLIST_FILE = "ClippMessageBannerExample/ClippMessageBannerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E60FAAF6170EA8CD008C4A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClippMessageBannerExample/ClippMessageBannerExample-Prefix.pch";
+				INFOPLIST_FILE = "ClippMessageBannerExample/ClippMessageBannerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E60FAACC170EA8CD008C4A71 /* Build configuration list for PBXProject "ClippMessageBannerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60FAAF2170EA8CD008C4A71 /* Debug */,
+				E60FAAF3170EA8CD008C4A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E60FAAF4170EA8CD008C4A71 /* Build configuration list for PBXNativeTarget "ClippMessageBannerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60FAAF5170EA8CD008C4A71 /* Debug */,
+				E60FAAF6170EA8CD008C4A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E60FAAC9170EA8CD008C4A71 /* Project object */;
+}
