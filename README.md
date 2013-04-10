@@ -19,7 +19,7 @@ Using ```CLPMessageBanner``` is as simple as using a ```UIAlertView```. Just ins
 
 The ```actionBlock``` will be called when the user taps on the message banner itself, with the intention being to highlight or focus on the item that is being mentioned.
 
-![](Info.png) ![](Warning.png) ![](Error.png)
+![](Demo.gif)
 
 There is support for 3 banner modes: ```CLPMessageBannerStyleInfo```, ```CLPMessageBannerStyleWarning``` & ```CLPMessageBannerStyleError```.
 Each mode simply has a different background colour, denoting the importance.
